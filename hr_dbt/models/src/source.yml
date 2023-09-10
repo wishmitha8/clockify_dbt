@@ -1,0 +1,9 @@
+version: 2
+sources:
+  - name: ldg_hr_clockify
+    database: dev
+    schema: dev_sahan
+    loader: python
+
+    tables:
+      - name: landing_clockify
